@@ -45,3 +45,5 @@ Don’t forget to commit early & often! You can reference the Commit Message les
 Project Recap:
 
 Went through most of the steps pretty smoothly.  Had to look up the Math functions to get the random whole numbers working with Math.floor().  I feel like there are many simpler ways to write the playRound function rather than write out every combination in if statements as I did, but my function seems to work as intended.  I attempted to validate the entry and have it prompt again if the user entered something other than rock, paper or scissors.  It returned invalid entry even when I entered something valid and I'm not sure why, but I intend to revisit this code later on and see if I can improve on it and get that working.
+
+Just thinking about it now upon revisit I would change the return value of playRound() from a string to something to indicate which player won, and then generate the string in game().  I could probably make a separate function to capture and validate player input as well.
