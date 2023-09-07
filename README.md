@@ -1,4 +1,18 @@
 # TOP-rock-paper-scissors
+UPDATE
+
+This branch is the revisited version of this project.  I have add  UI and refactored the javascript to fit.  This was a tricky one, I haven't integted javascript into html and css before this, and it was more challenging than I thought. I learned a lot and hope to come back an improve this more in the future.
+
+Things to do:
+
+1. properly reset the game after win condition.
+
+2. better explantion of the round structure (best of 3, 5, etc.)
+
+3. more "bells and whistles", animation, sound, etc.
+
+================================================================
+
 Rock Paper Scissors project for theodinproject Foundations course
 
 Project: Rock Paper Scissors
