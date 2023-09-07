@@ -1,3 +1,5 @@
+
+
 // Script for Rock Paper Scissors Game
 
 //Randomly return computers choice of rock, paper, or scissors
@@ -51,15 +53,6 @@ function game() {
         let computerSelction = getComputerChoice();
         let playerSelection = prompt("Choose rock, paper, or scissors: ");
 
-        
-        /*   attempted to validate entry to save errors later, didn't work and not sure why, will revisit
-
-        while(playerSelection.toLowerCase() !== "rock" || playerSelection.toLowerCase() !== "paper" || playerSelection.toLowerCase() !== "scissors") {
-            playerSelection = prompt("Invalid entry. Choose rock, paper, or scissors: ")
-        }
-
-        */
-
         let result = playRound(playerSelection, computerSelction);
         console.log(result);
 
@@ -80,5 +73,5 @@ function game() {
     }
 }
 
-game();
+
 
