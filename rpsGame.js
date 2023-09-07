@@ -1,5 +1,3 @@
-
-
 // Script for Rock Paper Scissors Game
 
 //Randomly return computers choice of rock, paper, or scissors
@@ -72,6 +70,18 @@ function game() {
         console.log("You Lose!");
     }
 }
+// UI
 
+const btnRock = document.getElementById('rock');
+const btnPaper = document.getElementById('paper');
+const btnScissors = document.getElementById('scissors');
+
+btnRock.addEventListener('click', () => getPlayerSelection('rock'));
+btnPaper.addEventListener('click', () => getPlayerSelection('paper'));
+btnScissors.addEventListener('click', () => getPlayerSelection('scissors'));
+
+function getPlayerSelection(playerSelection) {
+    console.log(playerSelection);
+}
 
 

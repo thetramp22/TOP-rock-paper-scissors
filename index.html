@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="rpsGame.js"></script>
+    <script src="rpsGame.js" defer></script>
 </head>
 <body>
     <header>
@@ -18,9 +18,15 @@
     <section class="game-section">
         <h2>Make Your Choice</h2>
         <div class="btns">
-            <img class="btn" src="./images/megaman.jpeg">
-            <img class="btn" src="./images/woodman.jpeg">
-            <img class="btn" src="./images/cutman.jpeg">
+            <button  class="btn" id="rock">
+                <img src="./images/megaman.jpeg">
+            </button>
+            <button  class="btn" id="paper">
+                <img src="./images/woodman.jpeg">
+            </button>
+            <button  class="btn" id="scissors">
+                <img src="./images/cutman.jpeg">
+            </button>
         </div>
     </section>
 </body>
