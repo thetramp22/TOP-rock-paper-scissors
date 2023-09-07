@@ -20,11 +20,23 @@ body {
 header {
     background: var(--color-header-bg);
     text-align: center;
-    height: 20vh;
+    height: 10vh;
 }
 
-header h1 {
-    padding: 30px 0;
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
 }
 
 .game-section {
@@ -34,18 +46,50 @@ header h1 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 90vh;
+}
+
+.game-panel {
+    width: 70vw;
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: rgba(7, 0, 102, 0.7);
+    padding: 30px 0;
 }
 
 .btns {
     display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px 0;
+    justify-content: center;    
+    gap: 75px;
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 4px solid var(--color-text);
+    border-bottom: 4px solid var(--color-text);
 }
 
-.btn{
-    border: 3px solid blue;
+.btn {
+    border: 6px solid blue;
     border-radius: 10px;
-    aspect-ratio: 1 / 1;
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.btn img {
+    max-width: 150px;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: var(--color-header-bg);
 }

@@ -16,18 +16,34 @@
         <h1>Rock Paper Scissors</h1>
     </header>
     <section class="game-section">
-        <h2>Make Your Choice</h2>
-        <div class="btns">
-            <button  class="btn" id="rock">
-                <img src="./images/megaman.jpeg">
-            </button>
-            <button  class="btn" id="paper">
-                <img src="./images/woodman.jpeg">
-            </button>
-            <button  class="btn" id="scissors">
-                <img src="./images/cutman.jpeg">
-            </button>
+        <div class="game-panel">
+        <h2>Can you defeat the Robot Masters?</h2>
+        <h3>Choose your fighter!</h3>
+            <div class="btns">
+                <button  class="btn" id="rock">
+                    <img src="./images/megaman.jpeg">
+                </button>
+                <button  class="btn" id="paper">
+                    <img src="./images/woodman.jpeg">
+                </button>
+                <button  class="btn" id="scissors">
+                    <img src="./images/cutman.jpeg">
+                </button>
+            </div>
+            <div class="result">
+                <p>Destiny awaits!</p>
+            </div>
+            <div class="scoreboard">
+                <h3>Score</h3>
+                <div class="scores">
+                    <p>You: <span id="player-score">0</span></p>
+                    <p>Robot Masters: <span id="computer-score">0</span></p>
+                </div>
+            </div>
         </div>
     </section>
+    <footer>
+        <p>Created by Scott Starks</p>
+    </footer>
 </body>
 </html>
